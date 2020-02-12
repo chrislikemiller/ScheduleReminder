@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "ScheduleReminder.Service": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

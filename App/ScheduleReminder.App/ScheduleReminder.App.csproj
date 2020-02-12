@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\mainicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="NotifyIconWpf">
+      <HintPath>..\..\..\NotifyIcon\WPF.NotifyIcon.NetCore3\NotifyIconWpf\obj\Release\netcoreapp3.0\NotifyIconWpf.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\mainicon.ico" />
+  </ItemGroup>
+
+</Project>
